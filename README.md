@@ -26,3 +26,8 @@ models used in the wild.
 
 [Data](data/lensfun_data.csv) used in the experiments was collected from the
 [Lensfun](https://lensfun.github.io/) project in the Spring of 2021.
+
+The algorithm in this paper has been incorporated into the camera models in
+Kitware's [KWIVER](https://github.com/Kitware) code base.  Specifically,
+you can find the C++ implementation
+[here](https://github.com/Kitware/kwiver/blob/v1.6.0/vital/types/camera_intrinsics.cxx#L301).
